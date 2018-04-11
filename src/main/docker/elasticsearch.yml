@@ -1,0 +1,9 @@
+version: '2'
+services:
+    tsalefkarhba-elasticsearch:
+        image: elasticsearch:2.4.6
+        # volumes:
+        #     - ~/volumes/jhipster/tsalefKarhba/elasticsearch/:/usr/share/elasticsearch/data/
+        ports:
+            - 9200:9200
+            - 9300:9300
